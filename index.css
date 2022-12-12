@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    text-align: center;
+}
+
+.resultado{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, 500px );
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card{
+    width: 490px;
+    height: 200px;
+}
+
+.card_img{
+    width: 145%;
+    height: 84%;
+}
+
+.card-body{
+    width: 80%;
+    height: 84%;
+    background-color: aliceblue;
+    margin-left: 70px;
+}
+
+.statusAlive{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.statusDead{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.statusUnknown{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+/* @media (max-width: 768px) {
+    .card_img{
+        width: 45%;
+        height: 14%;
+    }
+    
+    .card-body{
+        width: 40%;
+        height: 44%;
+        background-color: aliceblue;
+        margin-left: 70px;
+    }
+} */
